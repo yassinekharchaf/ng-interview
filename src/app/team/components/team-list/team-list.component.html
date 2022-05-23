@@ -1,0 +1,5 @@
+<ul>
+  <li
+  *ngFor="let member of teamList$ | async"
+  class="bg-gray-800 text-white p-3 rounded-2xl mb-2">{{member.firstname}}</li>
+</ul>
